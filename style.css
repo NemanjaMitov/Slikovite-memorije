@@ -1,0 +1,51 @@
+@font-face {
+    font-family: Cyber;
+    src: url("https://assets.codepen.io/605876/Blender-Pro-Bold.otf");
+    font-display: swap;
+}
+
+body{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+p{
+    font-family: 'Cyber', sans-serif;
+    font-size: 2rem;
+}
+
+.kontejner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem;
+    rotate: 45deg;
+}
+
+.polja{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.polja:hover{
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.377), 0 17px 50px 0 rgba(0, 0, 0, 0.301);
+}
+
+
+.polja.polje1{
+    background-color: lime;
+}
+.polja.polje2{
+    background-color: red;
+}
+.polja.polje3{
+    background-color: blue;
+}
+.polja.polje4{
+    background-color: yellow;
+}
