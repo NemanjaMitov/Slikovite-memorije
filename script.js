@@ -75,21 +75,21 @@ function obelezi(mem){
         }, "500")
     }
     else if(mem == 1){
-        polje2.style.backgroundColor = "rgb(255, 100, 100)";
+        polje2.style.backgroundColor = "red";
         setTimeout(() => {
-            polje2.style.backgroundColor = "red";
+            polje2.style.backgroundColor = "rgb(128, 0, 0)";
         }, "500")
     }
     else if(mem == 2){
-        polje3.style.backgroundColor = "rgb(100, 100, 255)";
+        polje3.style.backgroundColor = "blue";
         setTimeout(() => {
-            polje3.style.backgroundColor = "blue";
+            polje3.style.backgroundColor = "rgb(0, 0, 128)";
         }, "500")
     }
     else if(mem == 3){
-        polje4.style.backgroundColor = "rgb(255, 255, 100)";
+        polje4.style.backgroundColor = "yellow";
         setTimeout(() => {
-            polje4.style.backgroundColor = "yellow";
+            polje4.style.backgroundColor = "rgb(128, 128, 0)";
         }, "500")
     }
 }
