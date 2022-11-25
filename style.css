@@ -49,16 +49,3 @@ p{
 .polja.polje4{
     background-color: rgb(128, 128, 0);
 }
-
-.polja.polje1:active{
-    background-color: lime;
-}
-.polja.polje2:active{
-    background-color: red;
-}
-.polja.polje3:active{
-    background-color: blue;
-}
-.polja.polje4:active{
-    background-color: yellow;
-}
