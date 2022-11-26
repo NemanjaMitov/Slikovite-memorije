@@ -68,6 +68,9 @@ p{
         width: 20rem;
         gap: 1rem;
     }
+    .polja{
+        box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 9px 25px 0 rgba(0,0,0,0.19);
+    }
     p{
         font-size: 1rem;
     }
@@ -78,6 +81,9 @@ p{
         height: 15rem;
         width: 15rem;
         gap: 1rem;
+    }
+    .polja{
+        box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 9px 25px 0 rgba(0,0,0,0.19);
     }
     p{
         font-size: 1rem;
