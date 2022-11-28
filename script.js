@@ -69,27 +69,27 @@ function randomNaredni(){
 
 function obelezi(mem){
     if(mem == 0){
-        polje1.style.backgroundColor = "lime";
+        polje1.classList.add("mark");
         setTimeout(() => {
-            polje1.style.backgroundColor = "green";
+            polje1.classList.remove("mark");
         }, "500")
     }
     else if(mem == 1){
-        polje2.style.backgroundColor = "red";
+        polje2.classList.add("mark");
         setTimeout(() => {
-            polje2.style.backgroundColor = "rgb(128, 0, 0)";
+            polje2.classList.remove("mark");
         }, "500")
     }
     else if(mem == 2){
-        polje3.style.backgroundColor = "blue";
+        polje3.classList.add("mark");
         setTimeout(() => {
-            polje3.style.backgroundColor = "rgb(0, 0, 128)";
+            polje3.classList.remove("mark");
         }, "500")
     }
     else if(mem == 3){
-        polje4.style.backgroundColor = "yellow";
+        polje4.classList.add("mark");
         setTimeout(() => {
-            polje4.style.backgroundColor = "rgb(128, 128, 0)";
+            polje4.classList.remove("mark");
         }, "500")
     }
 }
