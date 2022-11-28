@@ -31,50 +31,58 @@ p{
 .polja{
     border-radius: 50%;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-blend-mode: multiply;
+    background-color: #5d5c5e83;
+    rotate: -45deg;
+    animation: animacija 8s linear infinite;
 }
 .polja:hover{
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.377), 0 17px 50px 0 rgba(0, 0, 0, 0.301);
 }
 
-
 .polja.polje1{
-    background-color: green;
+    background-image: url(slika1.jpg);
+
 }
 .polja.polje2{
-    background-color: rgb(128, 0, 0);
+    background-image: url(slika1.jpg);
+    rotate: -45deg;
 }
 .polja.polje3{
-    background-color: rgb(0, 0, 128);
+    background-image: url(slika1.jpg);
+    rotate: -45deg;
 }
 .polja.polje4{
-    background-color: rgb(128, 128, 0);
+    background-image: url(slika1.jpg);
+    rotate: -45deg;
 }
 
 .polja.polje1.mark{
-    background-color: rgb(0, 255, 0);
+    background-color: rgb(0, 0, 0, 0);
 }
 .polja.polje2.mark{
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(0, 0, 0, 0);
 }
 .polja.polje3.mark{
-    background-color: rgb(0, 0, 255);
+    background-color: rgb(0, 0, 0, 0);
 }
 .polja.polje4.mark{
-    background-color: rgb(255, 255, 0);
+    background-color: rgb(0, 0, 0, 0);
 }
- 
+
 .polja.polje1:active{
-    background-color: rgb(0, 255, 0);
+    background-color: rgba(0, 0, 0, 0);
 }
 .polja.polje2:active{
-    background-color: rgb(255, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
 }
 .polja.polje3:active{
-    background-color: rgb(0, 0, 255);
+    background-color: rgba(0, 0, 0, 0);
 }
 .polja.polje4:active{
-    background-color: rgb(255, 255, 0);
+    background-color: rgba(0,0, 0, 0);
 }
+
 
 @media only screen and (max-width: 920px) {
     .kontejner{
@@ -126,5 +134,18 @@ p{
     }
     p{
         font-size: 1rem;
+    }
+}@keyframes animacija {
+    0%,100%{
+        rotate: -45deg;
+    }
+    25%{
+        rotate: 45deg;
+    }
+    50%{
+        rotate: 135deg;
+    }
+    75%{
+        rotate: 225deg;
     }
 }
